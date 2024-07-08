@@ -1,0 +1,9 @@
+{
+	"name": "mdwdops-adf-dev-otvln",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1e010f46-cf87-45f7-ad38-6c522f2c819d",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
