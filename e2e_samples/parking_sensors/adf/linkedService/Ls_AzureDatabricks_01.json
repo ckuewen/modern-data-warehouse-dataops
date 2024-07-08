@@ -1,6 +1,5 @@
 {
 	"name": "Ls_AzureDatabricks_01",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureDatabricks",
@@ -13,8 +12,10 @@
 			"newClusterSparkEnvVars": {
 				"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
 			},
-			"newClusterVersion": "10.4.x-scala2.12",
+			"newClusterVersion": "14.3.x-scala2.12",
+			"clusterOption": "Fixed",
 			"newClusterInitScripts": []
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
